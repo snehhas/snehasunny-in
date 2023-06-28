@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/snehasunny-in/static/css/main.073c9b0a.css",
-    "main.js": "/snehasunny-in/static/js/main.59d3b175.js",
+    "main.js": "/snehasunny-in/static/js/main.b7270d46.js",
     "index.html": "/snehasunny-in/index.html",
     "main.073c9b0a.css.map": "/snehasunny-in/static/css/main.073c9b0a.css.map",
-    "main.59d3b175.js.map": "/snehasunny-in/static/js/main.59d3b175.js.map"
+    "main.b7270d46.js.map": "/snehasunny-in/static/js/main.b7270d46.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.59d3b175.js"
+    "static/js/main.b7270d46.js"
   ]
 }
