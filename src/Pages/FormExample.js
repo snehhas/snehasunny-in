@@ -77,22 +77,14 @@ const FormExample = () => {
                         <p>
                           Visit my
                           <a
-                            href="https://github.com/sanajitjana"
-                            title="Sanajit Jana"
+                            href="https://github.com/snehhas"
+                            title="Sneha Sunny"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
                             Github Profile
                           </a>
                           and do checkout this
-                          <a
-                            href="https://github.com/sanajitjana/laravel-curd"
-                            title="Laravel Curd"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                          >
-                            repository
-                          </a>
                         </p>
                         <h4>How to Submit Form Data into Database?</h4>
                         <ul>
@@ -261,8 +253,8 @@ const FormExample = () => {
                           look like in the following image:
                         </p>
                         <img
-                          src="assets/img/blog-details/form-example-output.png"
-                          alt="Form Example in Laravel 8"
+                          src="assets/img/blog-details/react-fetch.png"
+                          alt="react-fetch"
                           class="blog-img"
                         />
                         <br />

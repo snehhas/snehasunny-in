@@ -12,7 +12,6 @@ import ScrollToTop from "./component/ScrollToTop";
 // import Pages
 import Home from "./Pages/Home";
 import ReactHooks from "./Pages/ReactHooks";
-import UiUx from "./Pages/UiUx";
 import FormExample from "./Pages/FormExample";
 
 function App() {
@@ -24,7 +23,6 @@ function App() {
           <Switch>
             <Route exact path="/" component={Home} />
             <Route exact path="/react-hooks" component={ReactHooks} />
-            <Route exact path="/ui-ux" component={UiUx} />
             <Route exact path="/form-example" component={FormExample} />
           </Switch>
         </ScrollToTop>

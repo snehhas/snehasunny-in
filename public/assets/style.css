@@ -112,7 +112,7 @@ body{
 .main-page-title h3 {
     margin-top: 0px;
     font-size: 130px;
-    color: #efd236;
+    color: #18c9c9;
     text-align: center;
     margin-bottom: 0px;
     font-weight: 900;
@@ -212,7 +212,7 @@ z-index: 111;
     text-decoration: none;
 }
 .copyright-details{
-    background-color: #efd236;
+    background-color: #18c9c9;
     margin-top: 0px;
     position: relative;
 z-index: 111;

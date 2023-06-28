@@ -39,7 +39,7 @@ const ReactHooks = () => {
                   <div className="col-xl-9 col-lg-9 col-md-12 col-xs-12 col-sm-12">
                     <div className="blog-main">
                       <img
-                        src="assets/img/blog-details/react-hoooks.jpg"
+                        src="assets/img/blog-details/linkedin-newsletter.jpg"
                         alt="React hooks were introduced in version 16.8"
                         class="blog-img"
                       />

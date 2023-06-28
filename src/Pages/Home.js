@@ -17,16 +17,16 @@ const Home = () => {
                           className="cd-words-wrapper"
                           style={{ width: "266px", overflow: "hidden" }}
                         >
-                          <b className="is-hidden">Sanajit Jana</b>
-                          <b className="is-hidden">Designer</b>
-                          <b className="is-visible">Developer</b>
+                          <b className="is-hidden">Sneha Sunny</b>
+                          <b className="is-hidden">Full Stack Developer</b>
+                          <b className="is-visible">Public Speaker</b>
                         </span>
                       </h1>
                       <div className="about-social-icon text-center">
                         <ul className="about-social">
                           <li className="wow fadeIn" data-wow-delay=".4s">
                             <a
-                              href="https://www.linkedin.com/in/sanajitjana01"
+                              href="https://www.linkedin.com/in/sneha-sunny-703340152/"
                               target="newtab"
                             >
                               <i
@@ -37,7 +37,7 @@ const Home = () => {
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".2s">
                             <a
-                              href="https://github.com/sanajitjana"
+                              href="https://github.com/snehhas"
                               target="newtab"
                             >
                               <i
@@ -46,20 +46,14 @@ const Home = () => {
                               ></i>
                             </a>
                           </li>
-                          <li className="wow fadeIn" data-wow-delay=".6s">
-                            <a
-                              href="https://www.instagram.com/sanajitjana01/"
-                              target="newtab"
-                            >
-                              <i
-                                className="fa fa-instagram"
-                                aria-hidden="true"
-                              ></i>
+                          <li className="wow fadeIn" data-wow-delay="1s">
+                            <a href="https://medium.com/@snehasunnyofficial" target="newtab">
+                              <i className="fa fa-medium" aria-hidden="true"></i>
                             </a>
                           </li>
                           <li className="wow fadeIn" data-wow-delay=".8s">
                             <a
-                              href="https://twitter.com/sanajitjana01"
+                              href="https://twitter.com/SnehaSunny19"
                               target="newtab"
                             >
                               <i
@@ -68,14 +62,14 @@ const Home = () => {
                               ></i>
                             </a>
                           </li>
-                          <li className="wow fadeIn" data-wow-delay="1s">
+                          {/* <li className="wow fadeIn" data-wow-delay="1s">
                             <a
                               href="https://dev.to/sanajitjana"
                               target="newtab"
                             >
                               <i className="fa fa-book" aria-hidden="true"></i>
                             </a>
-                          </li>
+                          </li> */}
                         </ul>
                       </div>
                     </div>
@@ -101,15 +95,7 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        At present time I'm working on a multi-role, as a Web
-                        Developer I design and create various websites. And as
-                        UI/UX Designer I create many designs for Web
-                        Applications and Mobile applications. I create the
-                        beauty of the site. I'm responsible for the site's
-                        technical aspects, such as its performance and capacity,
-                        which are measures of a website's speed and how much
-                        traffic the site can handle. In addition, I also create
-                        content for the site.
+                      As a full-stack developer at a product-based MNC, I find great satisfaction in problem-solving and creating visually appealing websites. I believe that my passion for problem-solving enables me to approach challenges with a positive attitude, and my attention to design details helps me deliver high-quality websites that engage and delight users.
                       </p>
                     </div>
                   </div>
@@ -133,10 +119,10 @@ const Home = () => {
                         className="fa fa-file-image-o love-icon"
                         aria-hidden="true"
                       ></i>
-                      <h3>UI/UX Design</h3>
+                      <h3>Problem Solving</h3>
                       <div className="underline1"></div>
                       <div className="underline2"></div>
-                      <p>Love to do UI/UX design for new product</p>
+                      <p>I'am good problem-solver and applying logical reasoning.</p>
                     </div>
                   </div>
                   <div className="col-md-3 col-sm-6">
@@ -171,8 +157,8 @@ const Home = () => {
                   <div className="col-md-4 col-sm-6 col-xs-12 about-col">
                     <div className="about-image">
                       <img
-                        src="assets/img/about-image.jpg"
-                        alt="sanajit-jana"
+                        src="assets/img/about-image.png"
+                        alt="sneha-sunny"
                         className="about-img wow fadeIn"
                       />
                     </div>
@@ -180,14 +166,13 @@ const Home = () => {
                   <div className="col-md-8 col-sm-6 col-xs-12 about-col">
                     <div className="about-details wow fadeIn">
                       <div className="main-title left-title text-left wow fadeIn">
-                        <h3>Hello! This is Sanajit</h3>
+                        <h3>Hello! This is Sneha</h3>
                         <div className="underline1 no-margin"></div>
                         <div className="underline2 no-margin"></div>
                       </div>
                       <p className="wow fadeIn">
-                        I am a web developer from Kolkata, India. I enjoy
-                        building everything from small business sites to rich
-                        interactive web apps. if you are a business seeking a
+                        I am a web developer from Kerala, India. I enjoy
+                        building interactive web apps. if you are a business seeking a
                         web presence or an employer looking to hire, you can get
                         in touch with me{" "}
                         <a className="underline2" href="#contact">
@@ -198,22 +183,14 @@ const Home = () => {
                         beautiful code. I specialize in custom web theme
                         development and love what I do.
                         <br />
-                        <br />
-                        Since beginning my journey as a web developer in my
-                        college days, I've done remote work for agencies,
-                        consulted for startups, and collaborated with talented
-                        people to create digital products for both business and
-                        consumer use. I'm quietly confident, naturally curious,
-                        and perpetually working on improving my chops one design
-                        problem at a time.
                       </p>
-                      <a
+                      {/* <a
                         className="about-link-1"
                         href="assets/cv/sanajit-jana-profile.pdf"
                         target="_blank"
                       >
                         See Resume
-                      </a>
+                      </a> */}
                       <a className="about-link-2" href="#contact">
                         Hire Me
                       </a>
@@ -232,7 +209,7 @@ const Home = () => {
                           className="fa fa-pencil-square-o stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0021</h3>
+                        <h3 className="Count">3+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Web Design Completed</p>
@@ -244,10 +221,10 @@ const Home = () => {
                           className="fa fa-crop stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0040</h3>
+                        <h3 className="Count">500+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
-                        <p>UI/UX Design Done</p>
+                        <p>Problems Solved</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6">
@@ -256,7 +233,7 @@ const Home = () => {
                           className="fa fa-bolt stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0015</h3>
+                        <h3 className="Count">10+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Website Created</p>
@@ -268,7 +245,7 @@ const Home = () => {
                           className="fa fa-coffee stat-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3 className="Count">0085</h3>
+                        <h3 className="Count">90+</h3>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>Cups Coffee Taken</p>
@@ -303,15 +280,7 @@ const Home = () => {
                 <div className="col-md-6">
                   <div className="skill-details text-left">
                     <p>
-                      UI/UX involves planning and iterating a site's structure
-                      and layout. Once the proper information architecture is in
-                      place, I design the visual layer to create a beautiful
-                      user experience. Front End Development is building out the
-                      visual components of a website. Using HTML, CSS, and
-                      Javascript, I build fast, interactive websites. This also
-                      may include a CMS, apis, or other integrations. The work
-                      that I am most interested in is 0-1 work (helping you get
-                      your idea into the world).
+                    I'm a full-stack developer with expertise in React. I'm passionate about developing applications that are not only functional but also user-friendly and visually appealing. I have experience working on a range of projects, from small-scale applications to complex, large-scale systems. As a full-stack developer, I have a solid understanding of both front-end and back-end development. This allows me to design and develop applications that are optimized for performance and user experience. I'm proficient in a variety of programming languages and technologies, including Django, React, Python, JavaScript, HTML, CSS to name a few.
                     </p>
                   </div>
                 </div>
@@ -321,19 +290,25 @@ const Home = () => {
                       <div className="col">
                         <ul id="skill-main">
                           <li>
-                            <h3>HTML / CSS - 97%</h3>
+                            <h3>HTML / CSS - 80%</h3>
                           </li>
                           <li>
-                            <h3>UI / UX - 92%</h3>
+                            <h3>Python - 90%</h3>
                           </li>
                           <li>
-                            <h3>React JS - 30%</h3>
+                            <h3>React JS - 75%</h3>
                           </li>
                           <li>
-                            <h3>PHP (Laravel) - 93%</h3>
+                            <h3>Javascript (Laravel) - 75%</h3>
                           </li>
                           <li>
-                            <h3>MySQL - 95%</h3>
+                            <h3>SQL - 75%</h3>
+                          </li>
+                          <li>
+                            <h3>Django - 80%</h3>
+                          </li>
+                          <li>
+                            <h3>MongoDB - 80%</h3>
                           </li>
                         </ul>
                       </div>
@@ -374,12 +349,11 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>School</h3>
-                        <h2>2010-2017</h2>
+                        <h2>2004-2016</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Completed my school life from Haludbari High School
-                          (H.S.), Khejuri, West Bengal, India.
+                          I completed my schooling from Kendriya Vidyalaya, where I had the honor of being the school prefect in 2016.
                         </p>
                       </div>
                     </div>
@@ -393,20 +367,19 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>Graduation</h3>
-                        <h2>2017-2020</h2>
+                        <h2>2016-2020</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Achieved my Graduation Degree from{" "}
+                          Completed my Under Graduation Degree from{" "}
                           <a
-                            href="https://www.cclms.org/"
+                            href="https://en.wikipedia.org/wiki/APJ_Abdul_Kalam_Technological_University"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            CCLMS (Contai College of Learning and Management
-                            Science)
+                            Kerala Technological University
                           </a>
-                          , Contai, West Bengal, India.
+                          , Kochi, Kerala, India.
                         </p>
                       </div>
                     </div>
@@ -420,19 +393,19 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>Training &amp; Skill</h3>
-                        <h2>2022-2022</h2>
+                        <h2>Sept 2020 - Feb 2020</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          Currently learning Full-Stack Web Development from{" "}
+                          Completed learning Python Full-Stack Web Development from{" "}
                           <a
-                            href="https://masaischool.com/"
+                            href="https://www.qis.co.in/"
                             target="_blank"
                             rel="noopener noreferrer"
                           >
-                            Masai School
+                            Quest Innovative Solutions
                           </a>
-                          , Bengaluru, India.
+                          , Kochi, India.
                         </p>
                       </div>
                     </div>
@@ -445,8 +418,7 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        I don’t like to define myself by the work I’ve done. I
-                        define myself by the work I want to do.
+                        TCS, IBS Software
                       </p>
                     </div>
                   </div>
@@ -462,21 +434,25 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://patelgtech.com/"
+                            href="https://www.tcs.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
                           >
-                            Patel G Tech LLP
+                            Tata Consultancy Services
                           </a>
                         </h3>
-                        <h4>Repub Member</h4>
-                        <h2>2019-2020</h2>
+                        <h4>Assistant Systems Engineer</h4>
+                        <h2>March 2021-Nov 2022</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I did an internship at PATEL G TECH LLP as a
-                          Republication Team Member
+                          I worked as Python Developer. Worked on Django based application.
+                          <br/><br/>
+                          <b>Worked on:</b> Python, Django REST framework, celery, java, bootstrap, MongoDB (NoSQL), Git, uc4, airflow, controlm. 
+                          <br/><br/>
+                          <b>OS:</b> Windows, Linux
+                          <br/><br/>
                         </p>
                       </div>
                     </div>
@@ -491,21 +467,24 @@ const Home = () => {
                         ></i>
                         <h3>
                           <a
-                            href="https://uaguria.com/"
+                            href="https://www.ibsplc.com/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ color: "#4d4d4d" }}
                           >
-                            Uaguria Software
+                            IBS Software
                           </a>
                         </h3>
-                        <h4>Web Developer</h4>
-                        <h2>2020-2022</h2>
+                        <h4>Full Stack Developer</h4>
+                        <h2>Dec 2022-Present</h2>
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          At Uaguria Software, I was working as a Web Developer
-                          &amp; IT Consultant Person
+                          In IBS Software, I work as a Full Stack Developer. Involved in end to end development of new product.
+                          <br/><br/>
+                          <b>Worked on:</b> React,Bootstrap, PostgresSQL (SQL), Git, Bitbucket, AWS, HTML, CSS. 
+                          <br/><br/>
+                          <b>OS:</b> Windows
                         </p>
                       </div>
                     </div>
@@ -672,7 +651,7 @@ const Home = () => {
 
         {/* <!-- ============================================== SERVICE ===================================================== --> */}
 
-        <div id="service">
+        {/* <div id="service">
           <div className="service-content">
             <div className="service-grid text-center">
               <div className="container">
@@ -829,8 +808,8 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="testimonial">
+            </div> */}
+            {/* <div className="testimonial">
               <div className="testimonial-content">
                 <div className="testimonial-grid">
                   <div className="container">
@@ -925,9 +904,9 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
+            </div> */}
+          {/* </div>
+        </div> */}
 
         {/* <!-- ================================ BLOG ========================== --> */}
 
@@ -942,8 +921,7 @@ const Home = () => {
                       <div className="underline1"></div>
                       <div className="underline2"></div>
                       <p>
-                        The Blog, Which has thoughts on life, work and
-                        everything in between.
+                      This blog is a collection of reflections on life, work, and everything in between. From personal experiences to insightful observations, it offers a diverse range of perspectives and topics for readers to explore and engage with. Whether you're looking for inspiration, advice, or simply a fresh perspective, this blog has something for everyone.
                       </p>
                     </div>
                   </div>
@@ -955,7 +933,7 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                          href="https://www.linkedin.com/newsletters/7035585397220937728/"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
@@ -967,30 +945,25 @@ const Home = () => {
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            href="https://www.linkedin.com/newsletters/7035585397220937728/"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
                               <strong>
-                                What is the importance of hooks in React JS?
+                                Linkedin Newsletter
                               </strong>
                             </h3>
                           </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            In this article, you will learn what are hooks in
-                            React JS? and when to use react hooks? React JS is
-                            developed by Facebook in the year 2013. There are
-                            many students and the new developers who have
-                            confusion between react and hooks in react. Well, it
-                            is not different, react is a programming language
-                            and hooks is ...
+                          In my newsletter articles, I strive to provide practical advice, tips, and examples that cover both React and JavaScript. 
+                          Whether you're a beginner just starting to learn or an experienced developer looking to enhance your skills, my goal is to help you optimize your code and learn something valuable and useful in the process.
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/what-is-hooks-in-react-js-41l2"
+                            href="https://www.linkedin.com/newsletters/7035585397220937728/"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1003,42 +976,38 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                          href="https://medium.com/@snehasunnyofficial/understanding-data-layer-in-web-application-75b0d61e7d27"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <img
                             src="assets/img/blog/blog2.png"
-                            alt="The importance of UI/UX"
+                            alt="The importance of data layer"
                             className="blog-img"
                           />
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            href="https://medium.com/@snehasunnyofficial/understanding-data-layer-in-web-application-75b0d61e7d27"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
                               <strong>
-                                The importance of UI/UX | Software Engineering
+                                The importance of Data Layer | Software Engineering
                               </strong>
                             </h3>
                           </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            UI or User Interface is the interface that is the
-                            access point where users interact with computers. It
-                            is also a way through which users can interact with
-                            a website or an application. UI design typically
-                            refers to graphical user interfaces but also
-                            includes others, such as voice-controlled ones, a
-                            keyboard and the appearance ...
+                          My blog post on the importance of the data layer explains how it can help you collect user data efficiently, 
+                          track specific user behavior, and integrate with third-party tools. Whether you're a marketer, web analyst, or developer, 
+                          this post can help you optimize your website and digital strategy. ...
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/the-importance-of-ui-ux-software-engineering-1n0n"
+                            href="https://medium.com/@snehasunnyofficial/understanding-data-layer-in-web-application-75b0d61e7d27"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1051,41 +1020,36 @@ const Home = () => {
                     <div className="col-md-4 col-sm-6">
                       <div className="blog-main">
                         <a
-                          href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                          href="https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-sneha-sunny/?trackingId=8e5Si9QjSJej4GtWOUkaDA%3D%3D"
                           target="_blank"
                           rel="noopener noreferrer"
                         >
                           <img
-                            src="assets/img/blog/blog3.png"
+                            src="assets/img/blog/blog3.jpg"
                             alt="blog-img"
                             className="blog-img"
                           />
                         </a>
                         <div className="blog-head">
                           <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            href="https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-sneha-sunny/?trackingId=8e5Si9QjSJej4GtWOUkaDA%3D%3D"
                             target="_blank"
                             rel="noopener noreferrer"
                             style={{ textDecoration: "none" }}
                           >
                             <h3>
-                              <strong>Form Example in Laravel 8</strong>
+                              <strong>Different ways to Fetch Data in React JS</strong>
                             </h3>
                           </a>
                         </div>
                         <div className="blog-bottom">
                           <p>
-                            Laravel 8 form example tutorial. In this post, i
-                            will teach from starting on how to send form data on
-                            controller and how to insert form data in database
-                            using laravel 8. If you are trying to create form
-                            and want to insert form data into database using
-                            laravel 8 latest version. So this post will help you
-                            to do this. Because in this post example, i will
-                            create contact-list ...
+                          If you're a React developer looking for ways to fetch data for your web application, 
+                          check out my latest blog post. In it, I explore different methods of fetching data using React, including using axios, fetch, and GraphQL. 
+                          I provide practical examples and explain the pros and cons of each method. 
                           </p>
                           <a
-                            href="https://dev.to/sanajitjana/form-example-in-laravel-8-45oc"
+                            href="https://www.linkedin.com/pulse/different-ways-fetch-data-react-js-sneha-sunny/?trackingId=8e5Si9QjSJej4GtWOUkaDA%3D%3D"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="about-link-2"
@@ -1097,14 +1061,14 @@ const Home = () => {
                     </div>
                     <div className="row" style={{ textAlign: "center" }}>
                       <a
-                        href="https://dev.to/sanajitjana"
+                        href="https://dev.to/snehhas"
                         target="newtab"
                         className="btn btn-warning"
                         style={{
                           width: "50%",
                           fontSize: "16px",
-                          backgroundColor: "#efd236",
-                          borderColor: "#efd236",
+                          backgroundColor: "#18c9c9",
+                          borderColor: "#18c9c9",
                           color: "black",
                         }}
                       >
@@ -1132,8 +1096,8 @@ const Home = () => {
                         <div className="underline1"></div>
                         <div className="underline2"></div>
                         <p>
-                          I’m always open to discussing product design work or
-                          partnership opportunities.
+                          Feel free to contact me anytime!
+                          {/* <ContactForm/> */}
                         </p>
                       </div>
                     </div>
@@ -1263,7 +1227,7 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>Address</h3>
-                        <p>Kolkata, West Bengal, India</p>
+                        <p>Kochi, Kerala, India</p>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
@@ -1274,33 +1238,33 @@ const Home = () => {
                         ></i>
                         <h3>Email</h3>
                         <a
-                          href="mailto:contact.sanajitjana@gmail.com"
+                          href="mailto:snehasunny321@gmail.com"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          contact.sanajitjana@gmail.com
+                          snehasunny321@gmail.com
                         </a>
                       </div>
                     </div>
                     <div className="col-md-3 col-sm-6 contact-colamn">
                       <div className="contact-col-info" data-wow-delay=".6s">
                         <i
-                          className="fa fa-mobile contact-icon"
+                          className="fa fa-linkedin contact-icon"
                           aria-hidden="true"
                         ></i>
-                        <h3>Phone</h3>
+                        <h3>Linkedin</h3>
                         <a
-                          href="tel:8372876775"
+                          href="https://www.linkedin.com/in/sneha-sunny-703340152/"
                           style={{
                             color: "black",
                             textDecoration: "none",
                             fontSize: "17px",
                           }}
                         >
-                          +91 8372876775
+                          Sneha Sunny
                         </a>
                       </div>
                     </div>
@@ -1311,7 +1275,7 @@ const Home = () => {
                           aria-hidden="true"
                         ></i>
                         <h3>Portfolio</h3>
-                        <p>https://sanajitjana.github.io/</p>
+                        <p>https://snehhas.github.io/</p>
                       </div>
                     </div>
                   </div>
@@ -1322,7 +1286,7 @@ const Home = () => {
                       <div class="map-wrap">
                         <iframe
                           title="google-maps"
-                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d471220.5630603985!2d88.0495328251319!3d22.675752087592436!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f882db4908f667%3A0x43e330e68f6c2cbc!2sKolkata%2C%20West%20Bengal!5e0!3m2!1sen!2sin!4v1653845709428!5m2!1sen!2sin"
+                          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d392744.2762666421!2d76.32743007962083!3d10.016138515323794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b08822d8cda3039%3A0x1de9e9b20d738186!2sKakkanad%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1653847666906!5m2!1sen!2sin"
                           width="100%"
                           height="450"
                           style={{ border: "0" }}
