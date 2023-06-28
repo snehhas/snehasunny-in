@@ -36,27 +36,27 @@ function Header() {
                   >
                     <ul className="nav navbar-nav">
                       <li>
-                        <a href="/#home" className="active">
+                        <a href="/snehasunny-in/#home" className="active">
                           Home
                         </a>
                       </li>
                       <li>
-                        <a href="/#about">About</a>
+                        <a href="/snehasunny-in/#about">About</a>
                       </li>
                       <li>
-                        <a href="/#skill">Skill</a>
+                        <a href="/snehasunny-in/#skill">Skill</a>
                       </li>
                       <li>
-                        <a href="/#resume">Education</a>
+                        <a href="/snehasunny-in/#resume">Education</a>
                       </li>
                       {/* <li>
                         <a href="/#service">Service</a>
                       </li> */}
                       <li>
-                        <a href="/#blog">Blog</a>
+                        <a href="/snehasunny-in/#blog">Blog</a>
                       </li>
                       <li>
-                        <a href="/#contact">Contact</a>
+                        <a href="/snehasunny-in/#contact">Contact</a>
                       </li>
                     </ul>
                   </div>
