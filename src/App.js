@@ -21,7 +21,7 @@ function App() {
         <Header />
         <ScrollToTop>
           <Switch>
-            <Route exact path="/" component={Home} />
+            <Route exact path="/snehasunny-in" component={Home} />
             <Route exact path="/react-hooks" component={ReactHooks} />
             <Route exact path="/form-example" component={FormExample} />
           </Switch>
