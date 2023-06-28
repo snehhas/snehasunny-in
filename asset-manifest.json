@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/snehasunny-in/static/css/main.073c9b0a.css",
-    "main.js": "/snehasunny-in/static/js/main.d825902e.js",
-    "index.html": "/snehasunny-in/index.html",
-    "main.073c9b0a.css.map": "/snehasunny-in/static/css/main.073c9b0a.css.map",
-    "main.d825902e.js.map": "/snehasunny-in/static/js/main.d825902e.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.d825902e.js",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.d825902e.js.map": "/static/js/main.d825902e.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
